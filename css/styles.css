@@ -10,6 +10,7 @@ body {
     font-family: 'Inter', sans-serif;
     text-align: center;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -52,6 +53,9 @@ p {
     height: 5rem;
     background-color: aqua;
     padding: 4rem 8rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 
@@ -63,6 +67,10 @@ main {
     margin: 0 auto;
 }
 
+section {
+    padding: 8rem 10rem;
+}
+
 .hero {
     background-color: beige;
     display: flex;
@@ -71,10 +79,48 @@ main {
     align-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0 10rem;
 }
+
+
+/**** SERVICES ****/
 
 .services {
     background-color: #ccc4ff;
     height: 100vh;
+}
+
+
+/**** FEATURES ****/
+
+.features {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 8rem;
+    align-content: center;
+    background-color: cadetblue;
+}
+
+.col {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.col1 {
+    background-color: brown;
+    padding: 8rem 10rem;
+}
+
+.col3 {
+    background-color: brown;
+    padding: 8rem 10rem;
+}
+
+.col3 {
+    background-color: brown;
+    padding: 8rem 10rem;
 }
