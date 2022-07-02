@@ -39,7 +39,7 @@ p {
 }
 
 
-/****HEADER****/
+/**** HEADER ****/
 
 .header {
     display: flex;
@@ -50,4 +50,25 @@ p {
     height: 5rem;
     background-color: aqua;
     padding: 4rem 8rem;
+}
+
+
+/**** HERO ****/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.services {
+    height: 100vh;
+}
+
+.hero {
+    background-color: beige;
+}
+
+.services {
+    background-color: #ccc4ff;
 }
