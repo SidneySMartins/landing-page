@@ -8,6 +8,8 @@ html,
 body {
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -58,17 +60,21 @@ p {
 main {
     display: flex;
     flex-direction: column;
-}
-
-.hero,
-.services {
-    height: 100vh;
+    margin: 0 auto;
 }
 
 .hero {
     background-color: beige;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10rem;
 }
 
 .services {
     background-color: #ccc4ff;
+    height: 100vh;
 }
